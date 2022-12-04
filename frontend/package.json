@@ -1,0 +1,35 @@
+{
+  "proxy":"http://localhost:4000",
+  "name": "DACRJ",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.6.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "axios": "^0.26.1",
+    "daisyui": "^2.14.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^5.7.2",
+    "ipfs-http-client": "^56.0.1",
+    "next": "12.1.0",
+    "nodemon": "^2.0.20",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "web3modal": "^1.9.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
